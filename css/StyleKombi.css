@@ -1,7 +1,7 @@
 /*Garante que todos os elementos estão sem margens*/
 * {
-	 margin: 0px;
-	 padding: 0px;
+	margin: 0px;
+	padding: 0px;
 }
 
 th{
@@ -22,35 +22,73 @@ body.pag_principal{
 	background-size: cover;
 }
 
+/* --------------- CONTAINER ---------------------*/
 
-/* --------------- MENU ------------------------*/
-
-div.menu{
-	border: 0em solid black;
+.containerPagPrincipal{
+	display: grid;
 	width: 100%;
-	height: 3em;
-	background-color: hsla(120, 0%, 0%, 0.33);
-	font-size: 2.3em;
-	color: white;
-	font-family: 'Eras ITC', 'Eras Light ITC',  sans-serif ;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+	grid-template-rows: 48em 150px 150px 150px 150px;
+	background-color: white;
+	border-color: black;
 }
 
-div.text_menu{
+.cover{
+	grid-row-start: 1;
+	grid-row-end: 2;
+	background-image: url("../Fotos/fundo_pag_principal.png");
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: grid;
+}
+
+.TextCover{
+	display: inline-block;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-bottom: 0em;
+	margin: auto;
+	margin-top:4.5em;
+	margin-bottom: 0em;/*31em*/
 	text-align: center;
-	font-size: 0.8em;
-	padding-top: 1.2em;
-	font-family: Gabriola;
+	font-size: 3.8em;
+	color: white;
+	font-family: "Calibri", serif;
+	background-color: hsla(120, 0%, 0%, 0.20);
 }
 
-/*LINKS*/
+	/* --------------- MENU ------------------------*/
+
+	div.menu{
+		position: fixed;
+		border: 0em solid black;
+		width: 100%;
+		height: 3em;
+		background-color: hsla(120, 0%, 0%, 0.33);
+		font-size: 2.3em;
+		color: white;
+		font-family: 'Eras ITC', 'Eras Light ITC',  sans-serif ;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	div.text_menu{
+		text-align: center;
+		font-size: 0.8em;
+		padding-top: 1.2em;
+		font-family: Gabriola;
+	}
+
+	/*LINKS*/
 
 	a:link {
 		color: white;
 		background-color: transparent;
 		text-decoration: none;
+		padding-left: 7px;
+		padding-right: 7px;
 	}
 
 	a:visited {
@@ -65,6 +103,8 @@ div.text_menu{
 		text-decoration: underline;
 		padding: 5px;
 		border: 2px solid #FFD966;
+		border-radius: 10px;
+		font-size: 1em;
 	}
 
 	a.simple:link, a.simple:visited, a.simple:hover, a.simple:active{
@@ -81,6 +121,7 @@ div.text_menu{
 		text-decoration: none;
 		padding: 5px;
 		border: 2px solid white;
+		font-size: 1em;
 	}
 
 	a.SignIn:hover, a.SignIn:active{
@@ -89,6 +130,7 @@ div.text_menu{
 		text-decoration: underline;
 		padding: 5px;
 		border: 2px solid #FFD966;
+		font-size: 1em;
 	}
 
 
