@@ -13,10 +13,12 @@
       <div class="TitleAboutUs">
         THE ADVENTURE BEGINS ON BOARD THE KOMBI
       </div>
+
       <div class="TextAboutUs">
         <p style="color: #BDBDBD;"> Do you have style? Travel is passion for you? </p>
         <p style="padding-top:1.5em; color: #045FB4;"> KOMBI WITH US </p>
       </div>
+
       <div class="columnsAboutUs" style="  grid-row-start: 3; grid-row-end: 4;">
         <div style="background-color:#FAFAFA; width:30em; height:25em;">
           <p class="texPaboutUs"> For Hotel Managers </p>
@@ -31,6 +33,7 @@
           <p class="texPaboutUs" style="font-size:1.2em; color: #848484; padding-left:1em; padding-right:1em;"> Enjoy to explore Portugal, take the experience and do it with your favourite Kombi. </p>
         </div>
       </div>
+
       <div class="columnsAboutUs" style="  grid-row-start: 4; grid-row-end: 5; background-color: #CECEF6; justify-content: space-between;">
         <div>
           <p class="textPurplediv" style="padding-left:5.2em; padding-top:0.2em;"> "DON'T CALL IT A <span style="color:black"> DREAM ... </p>
@@ -39,6 +42,7 @@
             <p class="textPurplediv" style="padding-right:5.2em; padding-top:1.7em;"> ...CALL IT A PLAN !" </p>
           </div>
         </div>
+
         <div style="  grid-row-start: 5; grid-row-end: 6; background-color: white;">
           <div class="Slideshow" align="center">
             <img class="mySlides" src="{$BASE_URL}Fotos/vw2.jpg" align="center">
@@ -52,8 +56,39 @@
         </div>
       </div>
 
-      <div style="  grid-row-start: 3; grid-row-end: 4; background-color: blue;">
+      <div class="Regions" id="Regions">
+        <div class="bloksRegions">
+          <p class="subtitleCinzaEscuro"> Costa Norte  </p>
+          <p class="subtitleCinzaEscuro"> <img src="{$BASE_URL}Fotos/porto.jpg" style="width:7.5em;height:5em;"> </p>
+        </div>
+
+        <div class="bloksRegions">
+          <p class="subtitleCinzaEscuro"> Alto Douro  </p>
+          <p class="subtitleCinzaEscuro"> <img src="{$BASE_URL}Fotos/porto.jpg" style="width:7.5em;height:5em;"> </p>
+        </div>
+
+        <div class="bloksRegions">
+          <p class="subtitleCinzaEscuro"> Beira Litoral  </p>
+          <p class="subtitleCinzaEscuro"> <img src="{$BASE_URL}Fotos/Aveiro.jpg" style="width:7.5em;height:5em;"> </p>
+        </div>
+
+        <div class="bloksRegions" style="margin-top:1em;">
+          <p class="subtitleCinzaEscuro"> Centro   </p>
+          <p class="subtitleCinzaEscuro"> <img src="{$BASE_URL}Fotos/lisboa.jpg" style="width:7.5em;height:5em;"> </p>
+        </div>
+
+        <div class="bloksRegions" style="margin-top:1em;">
+          <p class="subtitleCinzaEscuro"> Alentejo   </p>
+          <p class="subtitleCinzaEscuro"> <img src="{$BASE_URL}Fotos/Evora.jpg" style="width:7.5em;height:5em;"> </p>
+        </div>
+
+        <div class="bloksRegions" style="margin-top:1em;">
+          <p class="subtitleCinzaEscuro"> Algarve  </p>
+          <p class="subtitleCinzaEscuro"> <img src="{$BASE_URL}Fotos/algarve.jpg" style="width:7.5em;height:5em;"> </p>
+        </div>
+
       </div>
+
       <div style="  grid-row-start: 4; grid-row-end: 5; background-color: red;">
       </div>
       <div style="  grid-row-start: 5; grid-row-end: 6; background-color: blue;">
