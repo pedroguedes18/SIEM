@@ -6,7 +6,7 @@
     <div class="text_menu"> <a href="http://gnomo.fe.up.pt/~ee12144/trabalhosSiem/trabalhoPHP-2/pages/InitialPage/initialPage.php#AboutUS"> About US </a></div>
     <div class="text_menu"> <a href="http://gnomo.fe.up.pt/~ee12144/trabalhosSiem/trabalhoPHP-2/pages/InitialPage/initialPage.php#Regions"> Regions   </a> </div>
     <div class="text_menu"> <a href = "http://gnomo.fe.up.pt/~ee12144/trabalhosSiem/trabalhoPHP-2/Tours/Form_ApresentaTours.php" target="_self"> Tours </a> </div>
-    <div class="text_menu"> <a href="http://gnomo.fe.up.pt/~ee12144/trabalhosSiem/trabalhoPHP-2/pages/InitialPage/initialPage.php#founders"> Founders </a> </div>
+    <div class="text_menu"> <a href="http://gnomo.fe.up.pt/~ee12144/trabalhosSiem/trabalhoPHP-2/pages/InitialPage/initialPage.php#Founders"> Founders </a> </div>
     <div class="text_menu"> <a href="http://gnomo.fe.up.pt/~ee12144/trabalhosSiem/trabalhoPHP-2/pages/InitialPage/initialPage.php#downloads"> Downloads </a> </div>
     <div class="text_menu"> <a class="SignIn" href= \"http://gnomo.fe.up.pt/~ee12144/trabalhosSiem/trabalhoPHP-2/pages/SignIn/SignIn.php\"> Sign In </a> </div>
   </div>

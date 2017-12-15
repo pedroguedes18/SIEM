@@ -27,7 +27,7 @@ body.pag_principal{
 .containerPagPrincipal{
 	display: grid;
 	width: 100%;
-	grid-template-rows: 48em 96em 65em 150px 150px;
+	grid-template-rows: 48em 96em 65em 45em 150px;
 	background-color: white;
 	border-color: black;
 }
@@ -63,6 +63,17 @@ body.pag_principal{
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
+}
+
+.founders{
+	grid-row-start: 4;
+	grid-row-end: 5;
+	background-color: white;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: grid;
+	grid-template-rows: 10em 1fr;
 }
 
 /* --------------- MENU ------------------------*/
@@ -253,74 +264,108 @@ a.SignIn:hover, a.SignIn:active{
 	text-align: center;
 }
 
+/* ------------- PAG_PRINCIPAL - FOUNDERS -----------------------*/
+
+.titleFounders{
+	grid-row-start: 1;
+	grid-row-end: 2;
+	margin-top: 1.5em;
+	text-align: center;
+	font-size: 3.1em;
+	color: black;
+	font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+}
+
+.picturesFounders{
+	grid-row-start: 2;
+	grid-row-end: 3;
+	margin-top: 1.5em;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.divPicture{
+	margin-left: 2.5em;
+	margin-right: 2.5em;
+	text-align: center;
+	max-width: 27em;
+}
+
+.TextFounders{
+	padding-top: 0.5em;
+	font-size: 1.5em;
+	font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+}
+
 /*********************************************************************************************************************************************************************************************************
 **********************************************************************************************************************************************************************************************************/
 /*SLIDESHOW E BOTÕES*/
 
-	div.Slideshow{
-		padding-top: 5em;
-		border: 0px;
-		width: 100%;
-		height: 550px;
-	}
+div.Slideshow{
+	padding-top: 5em;
+	border: 0px;
+	width: 100%;
+	height: 550px;
+}
 
-	.mySlides{
-		border: 0px;
-		width: 900px;
-		height: 450px;
-		opacity: 0.8;
-	}
+.mySlides{
+	border: 0px;
+	width: 900px;
+	height: 450px;
+	opacity: 0.8;
+}
 
-	.buttonLeft{
-		border:none;
-		display:inline-block;
-		outline:0;
-		padding:8px 16px;
-		vertical-align:middle;
-		overflow:hidden;
-		text-decoration:none;
-		color:inherit;
-		background-color:inherit;
-		text-align:center;
-		cursor:pointer;
-		white-space:nowrap;
-		position:absolute;
-		top: 147em;
-		left: 23.2em;
-		transform:translate(0%,-50%);
-		-ms-transform:translate(-0%,-50%);
-		color:#fff!important;
-		background-color:#000!important;
-	}
+.buttonLeft{
+	border:none;
+	display:inline-block;
+	outline:0;
+	padding:8px 16px;
+	vertical-align:middle;
+	overflow:hidden;
+	text-decoration:none;
+	color:inherit;
+	background-color:inherit;
+	text-align:center;
+	cursor:pointer;
+	white-space:nowrap;
+	position:absolute;
+	top: 147em;
+	left: 23.2em;
+	transform:translate(0%,-50%);
+	-ms-transform:translate(-0%,-50%);
+	color:#fff!important;
+	background-color:#000!important;
+}
 
-	.buttonRight{
-		border:none;
-		display:inline-block;
-		outline:0;
-		padding:8px 16px;
-		vertical-align:middle;
-		overflow:hidden;
-		text-decoration:none;
-		color:inherit;
-		background-color:inherit;
-		text-align:center;
-		cursor:pointer;
-		white-space:nowrap;
-		position:absolute;
-		top: 147em;
-		right: 23.2em;
-		transform:translate(0%,-50%);
-		-ms-transform:translate(-0%,-50%);
-		color:#fff!important;
-		background-color:#000!important;
-	}
+.buttonRight{
+	border:none;
+	display:inline-block;
+	outline:0;
+	padding:8px 16px;
+	vertical-align:middle;
+	overflow:hidden;
+	text-decoration:none;
+	color:inherit;
+	background-color:inherit;
+	text-align:center;
+	cursor:pointer;
+	white-space:nowrap;
+	position:absolute;
+	top: 147em;
+	right: 23.2em;
+	transform:translate(0%,-50%);
+	-ms-transform:translate(-0%,-50%);
+	color:#fff!important;
+	background-color:#000!important;
+}
 
-	.button{
-		width:100px;
-		height: 40px;
-		font-family: 'Eras ITC', 'Eras Light ITC',  sans-serif ;
-		font-size: 20px;
-	}
+.button{
+	width:100px;
+	height: 40px;
+	font-family: 'Eras ITC', 'Eras Light ITC',  sans-serif ;
+	font-size: 20px;
+}
 
 /*********************************************************************************************************************************************************************************************************
 **********************************************************************************************************************************************************************************************************/
