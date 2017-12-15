@@ -27,7 +27,7 @@ body.pag_principal{
 .containerPagPrincipal{
 	display: grid;
 	width: 100%;
-	grid-template-rows: 48em 96em 65em 45em 150px;
+	grid-template-rows: 48em 96em 65em 45em 22em;
 	background-color: white;
 	border-color: black;
 }
@@ -74,6 +74,14 @@ body.pag_principal{
 	background-size: cover;
 	display: grid;
 	grid-template-rows: 10em 1fr;
+}
+
+.downloads{
+	grid-row-start: 5;
+	grid-row-end: 6;
+	background-color: #F2F2F2;
+	display: grid;
+	grid-template-rows: 1fr 1fr;
 }
 
 /* --------------- MENU ------------------------*/
@@ -295,6 +303,30 @@ a.SignIn:hover, a.SignIn:active{
 .TextFounders{
 	padding-top: 0.5em;
 	font-size: 1.5em;
+	font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+}
+
+/* ------------- PAG_PRINCIPAL - DOWNLOADS -----------------------*/
+
+.logoDownloads{
+	margin-top: 3em;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.oneLogo{
+	margin-left: 5em;
+	margin-right: 5em;
+}
+
+.infoLogin{
+	margin-top:1em;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	text-align: center;
 	font-family: "Eras ITC", "Eras Light ITC", sans-serif;
 }
 
