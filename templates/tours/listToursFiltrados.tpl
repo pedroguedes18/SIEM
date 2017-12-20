@@ -1,30 +1,29 @@
-
-{foreach $tours as $tour}
+{foreach $toursFiltrados as $tourFiltrado}
 
     <div class="containerTour">
       <div class="photoTour">
           <img src="{$BASE_URL}Fotos/{$tour.linkimg}" class="imagephotoTour">
           <div class="overlay">
-  					<p class="textOverlay">{$tour.descricao}</p>
+  					<p class="textOverlay">{$tourFiltrado.descricao}</p>
   				</div>
       </div>
       <div class="infoTourName">
-        <p class="textTour"> {$tour.nome_t} </p>
+        <p class="textTour"> {$tourFiltrado.nome_t} </p>
       </div>
       <div class="infoTourPrice">
-        <p class="textTour"> {$tour.custo_tour} </p>
+        <p class="textTour"> {$tourFiltrado.custo_tour} </p>
       </div>
       <div class="infoTourCity">
-        <p class="textTour"> {$tour.nome_c} </p>
+        <p class="textTour"> {$tourFiltrado.nome_c} </p>
       </div>
       <div class="infoTourTime">
-        <p class="textTour"> {$tour.duracao} </p>
+        <p class="textTour"> {$tourFiltrado.duracao} </p>
       </div>
       <div class="infoTourDate">
-        <p class="textTour"> {$tour.datapartida} </p>
+        <p class="textTour"> {$tourFiltrado.datapartida} </p>
       </div>
       <div class="infoTourBus">
-        <p class="textTour"> {$tour.vagas-$tour.lotacao} / {$tour.vagas} </p>
+        <p class="textTour"> {$tourFiltrado.vagas-$tourFiltrado.lotacao} / {$tourFiltrado.vagas} </p>
       </div>
       <div class="buttonBook">
         <form method='POST' action=''>
