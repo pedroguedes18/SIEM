@@ -84,6 +84,68 @@ body.pag_principal{
 	grid-template-rows: 1fr 1fr;
 }
 
+.ContainerSignIn{
+	display: grid;
+	width: 100%;
+	height: 100%;
+	grid-template-rows: 46.7em;
+	grid-template-columns: 53em 1fr;
+
+	background-image: url("../Fotos/signIn.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.login{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	background-color: transparent;
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+}
+
+.loginTitle{
+	grid-row-start: 1;
+	grid-row-end: 2;
+	background-color: red;
+	margin-top: 12em;
+	margin-left: 6em;
+	margin-right: 1em;
+	margin-bottom: 7.5em;
+	background-color: #DAE3F3;
+	opacity: 0.64;
+}
+
+.loginForm{
+	grid-row-start: 2;
+	grid-row-end: 3;
+	background-color: white;
+	opacity: 0.8;
+	margin-right: 8em;
+	margin-left: 12em;
+	margin-bottom: 4em;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+
+.register{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	background-color: transparent;
+}
+
+.registerForm{
+	background-color: white;
+	opacity: 0.8;
+	height: 30.7em;
+	margin-top: 12em;
+	margin-left: 7em;
+	margin-right: 4.5em;
+	display: grid;
+	grid-template-rows: 7em 1fr;
+}
+
 /* --------------- MENU ------------------------*/
 
 div.menu{
@@ -329,6 +391,50 @@ a.SignIn:hover, a.SignIn:active{
 	text-align: center;
 	font-family: "Eras ITC", "Eras Light ITC", sans-serif;
 }
+
+/* ------------- PAG_SIGNIN -----------------------*/
+
+p.SignInTitle{
+	font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+	font-size: 2.4em;
+	text-align: center;
+	color: black;
+	padding: 0.2em;
+}
+
+.SignInFormTitle{
+	grid-row-start: 1;
+	grid-row-end: 2;
+	font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+	font-size: 2em;
+	text-align: center;
+	padding-top: 1em;
+}
+
+.FormLogin{
+	grid-row-start: 2;
+	grid-row-end: 4;
+	text-align: center;
+}
+
+.inputSignIn{
+	width:20em;
+	height:2.5em;
+	border: 0px;
+	background-color: #D6DCE5;
+	text-align: center;
+	color: #2E75B6;
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+	font-size: 1.2em;
+}
+
+.FormRegister{
+	grid-row-start: 2;
+	grid-row-end: 3;
+	text-align: center;
+}
+
+
 
 /*********************************************************************************************************************************************************************************************************
 **********************************************************************************************************************************************************************************************************/
