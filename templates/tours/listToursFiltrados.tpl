@@ -2,7 +2,7 @@
 
     <div class="containerTour">
       <div class="photoTour">
-          <img src="{$BASE_URL}Fotos/{$tour.linkimg}" class="imagephotoTour">
+          <img src="{$BASE_URL}Fotos/{$tour.linkimg}" alt="tourImage" class="imagephotoTour"></input>
           <div class="overlay">
   					<p class="textOverlay">{$tourFiltrado.descricao}</p>
   				</div>
@@ -26,8 +26,8 @@
         <p class="textTour"> {$tourFiltrado.vagas-$tourFiltrado.lotacao} / {$tourFiltrado.vagas} </p>
       </div>
       <div class="buttonBook">
-        <form method='POST' action=''>
-          <input  type="submit" name="botao3" value="BOOK" style="width:120px; height: 30px; opacity: 0.5; font-family: 'Eras ITC', 'Eras Light ITC',  sans-serif ; font-size: 20px; cursor: pointer; background-color: #2E64FE; color: white; border: none; border-radius: 6px;"></input>
+        <form method='POST'>
+          <input  type="submit" name="botao3" value="BOOK" style="width:120px; height: 30px; opacity: 0.5; font-family: 'Eras ITC', 'Eras Light ITC',  sans-serif ; font-size: 20px; cursor: pointer; background-color: #2E64FE; color: white; border: none; border-radius: 6px;">
         </form>
       </div>
       <div class="marginLeft">

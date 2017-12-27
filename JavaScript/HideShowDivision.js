@@ -1,5 +1,6 @@
 $(document).ready(function(){
   $('#btnSearch').click(function(){
+    e.preventDefault();
     $("#Tours").hide();
     $("#Tours2").show();
     //var price_req = $('#Price').val();

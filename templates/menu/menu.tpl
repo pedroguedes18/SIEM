@@ -2,7 +2,7 @@
 <section id="menu">
 
   <div class="menu">
-    <div class="text_menu" style="padding-top:0.5em;"> <p style="line-height: 0em;"> <img src="http://gnomo.fe.up.pt/~up201304111/trabalhosSiem/trabalhoPHP-2/Fotos/kombi_menu.png" style="width:2em;height:1.2em;"> </p> <p> <a class= "simple" href = "http://gnomo.fe.up.pt/~up201304111/trabalhosSiem/trabalhoPHP-2/index.php" target="_self">KombiWithUs  </a> </p> </div>
+    <div class="text_menu" style="padding-top:0.5em;"> <p style="line-height: 0em;"> <img src="http://gnomo.fe.up.pt/~up201304111/trabalhosSiem/trabalhoPHP-2/Fotos/kombi_menu.png" alt="menuImage" style="width:2em;height:1.2em;"> </p> <p> <a class= "simple" href = "http://gnomo.fe.up.pt/~up201304111/trabalhosSiem/trabalhoPHP-2/index.php" target="_self">KombiWithUs  </a> </p> </div>
     <div class="text_menu"> <a href="http://gnomo.fe.up.pt/~up201304111/trabalhosSiem/trabalhoPHP-2/pages/InitialPage/initialPage.php#AboutUS"> About US </a></div>
     <div class="text_menu"> <a href="http://gnomo.fe.up.pt/~up201304111/trabalhosSiem/trabalhoPHP-2/pages/InitialPage/initialPage.php#Regions"> Regions   </a> </div>
     <div class="text_menu"> <a href = "http://gnomo.fe.up.pt/~up201304111/trabalhosSiem/trabalhoPHP-2/pages/Tours/tours.php" target="_self"> Tours </a> </div>

@@ -9,11 +9,11 @@
 				</div>
 
 				<div class="item" style="padding: 0.3em 0">
-						<input class="inputFilter" type="text" value="Maximum Price" name="PriceMax" id="Price"></input>
+						<input class="inputFilter" type="text" value="Maximum Price" name="PriceMax" id="Price">
 				</div>
 
 				<div class="item" style="padding: 0.3em 0">
-						<input class="inputFilter" type="text" value="Travelers" name="Viajantes" id="Viajantes"></input>
+						<input class="inputFilter" type="text" value="Travelers" name="Viajantes" id="Viajantes">
 				</div>
 
 				<div class="item" style="padding: 0.3em 0">
@@ -27,8 +27,11 @@
 				</div>
 
 				<div class="item" style="padding: 0.3em 0">
-					<p align="center">
-					<input id="btnSearch" type="submit" name="SearchTour" value="SEARCH" class="buttonSearch"></input>
+					<p class="center">
+					<form action="" method="GET">
+					    <button id="btnSearch" type="submit" name="SearchTour">SEARCH</button>
+					</form>
+
 					</p>
 				</div>
 			</div>
