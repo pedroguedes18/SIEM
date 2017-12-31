@@ -146,6 +146,58 @@ body.pag_principal{
 	grid-template-rows: 7em 1fr;
 }
 
+.MyTours{
+	display: grid;
+	width: 100%;
+	height: 100%;
+	grid-template-rows: 46.7em;
+
+	background-image: url("../Fotos/pag_utilizador.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bodyMytours{
+	margin: auto auto;
+	margin-top: 5.7em;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	background-color: transparent;
+	display: grid;
+	grid-template-rows: 8em 1fr;
+}
+
+.titleMyTours{
+	grid-row-start: 1;
+	grid-row-end: 2;
+	width: 9em;
+	margin: 0em auto;
+	height: 1.5em;
+	background-color: white;
+	opacity: 0.9;
+	font-size: 2.5em;
+	color: #2F5599;
+	font-family: "Eras ITC", "Eras Light ITC";
+	text-align: center;
+	padding-top:0.5em;
+}
+
+.reservations{
+	grid-row-start: 2;
+	grid-row-end: 3;
+	width:25em;
+	max-height: 12em;
+	background-color: white;
+	opacity: 0.9;
+	font-size: 2.5em;
+	color: #2F5599;
+	font-family: "Eras ITC", "Eras Light ITC";
+	text-align: center;
+	overflow-y: scroll
+}
+
+
 /* --------------- MENU ------------------------*/
 
 div.menu{
@@ -161,7 +213,7 @@ div.menu{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	z-index: 100;
+	z-index: 1001;
 }
 
 div.text_menu{
@@ -171,9 +223,9 @@ div.text_menu{
 	font-family: Gabriola;
 }
 
-/*LINKS*/
+/*LINKS------------------------------------------------------------------------*/
 
-a:link {
+a.InitialPage:link {
 	color: white;
 	background-color: transparent;
 	text-decoration: none;
@@ -181,13 +233,37 @@ a:link {
 	padding-right: 7px;
 }
 
-a:visited {
+a.InitialPage:visited {
 	color: white;
 	background-color: transparent;
 	text-decoration: none;
 }
 
-a:hover, a:active {
+a.InitialPage:hover, a.InitialPage:active {
+	color: #ffd966;
+	background-color: transparent;
+	text-decoration: underline;
+	padding: 5px;
+	border: 2px solid #FFD966;
+	border-radius: 10px;
+	font-size: 1em;
+}
+
+a.Generic:link {
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+a.Generic:visited {
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a.Generic:hover, a.Generic:active {
 	color: #ffd966;
 	background-color: transparent;
 	text-decoration: underline;
@@ -426,6 +502,7 @@ p.SignInTitle{
 	color: #2E75B6;
 	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
 	font-size: 1.2em;
+	border-radius: 0.5em;
 }
 
 .FormRegister{
@@ -434,6 +511,55 @@ p.SignInTitle{
 	text-align: center;
 }
 
+.UserCheckInfo{
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+	color: #ff3333;
+	font-size: 1em;
+}
+
+/*---------------ERROR_MESSAGES----------------------------*/
+
+#messages {
+	width: 20em;
+	width: 20em;
+	position: absolute;
+	padding-top: 5em;
+	left: 37.5em;
+	text-align: center;
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+}
+
+#messages div{
+	padding: 1em;
+	margin-top: 1em;
+	border-radius: 1em;
+}
+
+#messages .error{
+	background-color: #F99;
+	color: #333;
+}
+
+#messages .success{
+	background-color: #9F9;
+  color: #333;
+}
+
+#messages .close{
+	float: right;
+  text-decoration: none;
+  color: #333;
+	font-size: 1.2em;
+}
+
+#messages .close:hover{
+	float: right;
+  text-decoration: none;
+  color: red;
+	border: 1px solid red;
+	border-radius: 0.5em;
+	font-size: 1.2em;
+}
 
 
 /*********************************************************************************************************************************************************************************************************
@@ -504,6 +630,78 @@ div.Slideshow{
 	font-family: 'Eras ITC', 'Eras Light ITC',  sans-serif ;
 	font-size: 20px;
 }
+
+/*********************************************************************************************************************************************************************************************************
+**********************************************************************************************************************************************************************************************************/
+/*Dropdown Maintenance*/
+
+
+.dropbtn {
+	background-color: transparent;
+	color: white;
+	font-size: 0.85em;
+	font-family: Gabriola;
+	border: none;
+	cursor: pointer;
+	padding: 0px;
+	padding-left: 0.4em;
+	padding-right: 0.4em;
+	border: 2px solid white;
+	border-radius: 0.5em;
+	line-height:1.2em;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+	padding-top: 0.6em;
+	border-radius: 0.5em;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-image: url("../Fotos/fundo_menu.png");
+	font-size: 0.5em;
+	min-width: 7em;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	text-align: center;
+	border-radius: 0.5em;
+}
+
+.dropdown-content a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	border-radius: 0.5em;
+	padding-top:0.2em;
+	padding-bottom: 0.2em;
+}
+
+.dropdown-content a:hover {
+	background-color: transparent;
+	color: white;
+	border: 2px solid #FFD966;
+	border-radius: 0.5em;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+	border-radius: 0.5em;
+}
+
+.dropdown:hover .dropbtn {
+	color: #ffd966;
+	background-color: transparent;
+	text-decoration: underline;
+	padding: 0px;
+	padding-left: 0.4em;
+	padding-right: 0.4em;
+	border: 2px solid #FFD966;
+	border-radius: 0.5em;
+}
+
 
 /*********************************************************************************************************************************************************************************************************
 **********************************************************************************************************************************************************************************************************/
