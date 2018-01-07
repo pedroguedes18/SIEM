@@ -158,44 +158,111 @@ body.pag_principal{
 	background-size: cover;
 }
 
-.bodyMytours{
-	margin: auto auto;
-	margin-top: 5.7em;
-	grid-row-start: 1;
-	grid-row-end: 2;
-	background-color: transparent;
+.MaintenenceLayoutInsert{
 	display: grid;
-	grid-template-rows: 8em 1fr;
+	grid-template-rows: 1fr 40em 33em 30em;
 }
 
-.titleMyTours{
+
+
+.MaintenenceBody{
+	display: grid;
+	width: 100%;
+	grid-template-rows: 3em 1fr;
+	background-color: white;
+}
+
+.MaintenenceTitle{
+	grid-row-start: 0;
+	grid-row-end: 1;
+	background-color: #DEEBF7;
+	margin-top: 3.5em;
+	height: 1.5em;
+	line-height: 1.5em;
+	text-align: center;
+	font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+	font-size: 2.5em;
+}
+
+.MaintenenceContent{
 	grid-row-start: 1;
 	grid-row-end: 2;
-	width: 9em;
-	margin: 0em auto;
-	height: 1.5em;
-	background-color: white;
-	opacity: 0.9;
-	font-size: 2.5em;
-	color: #2F5599;
-	font-family: "Eras ITC", "Eras Light ITC";
-	text-align: center;
-	padding-top:0.5em;
+	display: grid;
+	grid-template-columns: 28em 1fr;
 }
 
-.reservations{
+.MaintenenceImage{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	margin: auto auto;
+	padding-top: 5em;
+}
+
+.MaintenenceForm{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	display: grid;
+	grid-template-rows: 10em 1fr;
+}
+
+.MaintenenceFormTitle{
+	grid-row-start: 1;
+	grid-row-end: 2;
+	margin-top: 2.5em;
+	border-top: 3px solid #DEEBF7;
+	border-bottom: 3px solid #DEEBF7;
+	text-align: center;
+	font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+	font-size: 2em;
+	line-height: 2em;
+}
+
+.MaintenenceFormContent{
 	grid-row-start: 2;
 	grid-row-end: 3;
-	width:25em;
-	max-height: 12em;
-	background-color: white;
-	opacity: 0.9;
-	font-size: 2.5em;
-	color: #2F5599;
-	font-family: "Eras ITC", "Eras Light ITC";
-	text-align: center;
-	overflow-y: scroll
+	font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+	font-size: 1.5em;
+	line-height: 2em;
+	display: grid;
+	grid-template-columns: 6.75em 1fr;
 }
+
+.MaintenanceNameAlts{
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+.MaintenanceOptionAlts{
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+
+/********************MAINTENENCE - INSERT************************************************
+******************************************************************************/
+
+
+/********************MAINTENENCE - UPDATE************************************************
+******************************************************************************/
+.MaintenenceUpdateFormContent{
+	grid-row-start: 2;
+	grid-row-end: 3;
+	font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+	font-size: 1.5em;
+	line-height: 2em;
+	grid-template-rows: 5em 1fr;
+}
+
+.MaintenenceHotelSearch{
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.MaintenenceHotelAlterations{
+	grid-row-start: 2;
+	grid-row-end: 3;
+	display: grid;
+	grid-template-columns: 6.75em 1fr;
+}
+
 
 
 /* --------------- MENU ------------------------*/
@@ -517,6 +584,80 @@ p.SignInTitle{
 	font-size: 1em;
 }
 
+/* ------------- PAGINA - MyTOURS -----------------------*/
+.bodyMytours{
+	margin: auto auto;
+	margin-top: 5.7em;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	background-color: transparent;
+	display: grid;
+	grid-template-rows: 8em 1fr;
+}
+
+.titleMyTours{
+	grid-row-start: 1;
+	grid-row-end: 2;
+	width: 9em;
+	margin: 0em auto;
+	height: 1.5em;
+	background-color: white;
+	opacity: 0.9;
+	font-size: 2.5em;
+	color: #2F5599;
+	font-family: "Eras ITC", "Eras Light ITC";
+	text-align: center;
+	padding-top:0.5em;
+}
+
+.reservations{
+	grid-row-start: 2;
+	grid-row-end: 3;
+	width:25em;
+	max-height: 12em;
+	opacity: 0.9;
+	font-size: 2.5em;
+	font-family: "Eras ITC", "Eras Light ITC";
+	text-align: center;
+	overflow-y: scroll
+}
+
+.singleReservation{
+	display: grid;
+	grid-template-columns: 8em 1fr 4em;
+	background-color: white;
+	margin-top: 0.5em;
+}
+
+.RerservationImageTitle{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	padding: 0.5em;
+	font-size: 0.7em;
+	background-color: transparent;
+}
+
+.ReservationContent{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	padding: 0.5em;
+	font-size: 0.5em;
+	text-align: left;
+	line-height: 1.9em;
+	color: black;
+	background-color: transparent;
+}
+
+.ReservationDelete{
+	grid-column-start: 3;
+	grid-column-end: 4;
+	padding: 0.5em;
+	font-size: 0.7em;
+  margin: auto auto;
+	background-color: transparent;
+}
+
+
 /*---------------ERROR_MESSAGES----------------------------*/
 
 #messages {
@@ -702,6 +843,112 @@ div.Slideshow{
 	border-radius: 0.5em;
 }
 
+/*******************************************************************************
+********************************************************************************/
+
+.textcar {
+    height: 2em;
+    width: 30em;
+}
+
+.confirmButton {
+	  margin-left: 35em;
+    width: 150px;
+    height: 40px;
+    font-family: 'Eras ITC', 'Eras Light ITC', sans-serif;
+    font-size: 20px;
+		background-color: #9F9;
+}
+
+.DeleteButton {
+	  margin-left: 35em;
+    width: 150px;
+    height: 40px;
+    font-family: 'Eras ITC', 'Eras Light ITC', sans-serif;
+    font-size: 20px;
+		background-color: #F99;
+}
 
 /*********************************************************************************************************************************************************************************************************
 **********************************************************************************************************************************************************************************************************/
+.dropbtn2 {
+	background-color: white;
+	color: black;
+	font-size: 1em;
+	font-family: Gabriola;
+	border: none;
+	cursor: pointer;
+	padding: 0px;
+	padding-left: 0em;
+	padding-right: 0em;
+	border-radius: 0.5em;
+	line-height:0em;
+}
+
+.dropdown2 {
+	position: relative;
+	display: inline-block;
+	padding-top: 0em;
+	border-radius: 0.5em;
+}
+
+.dropdown-content2 {
+	display: none;
+	position: absolute;
+	background-color: #DEEBF7;
+	font-size: 1em;
+	min-width: 24em;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	text-align: center;
+	border-radius: 0.5em;
+}
+
+.dropdown-content2 a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	border-radius: 0.5em;
+	padding-top:0.2em;
+	padding-bottom: 0.2em;
+}
+
+.dropdown-content2 a:hover {
+	background-color: transparent;
+	color: white;
+	border: 2px solid #FFD966;
+	border-radius: 0.5em;
+}
+
+.dropdown2:hover .dropdown-content2 {
+	display: block;
+	border-radius: 0.5em;
+}
+
+.dropdown2:hover .dropbtn2 {
+	color: grey;
+	background-color: transparent;
+	text-decoration: underline;
+	padding: 0px;
+	padding-left: 0em;
+	padding-right: 0em;
+	border: 2px solid #FFD966;
+	border-radius: 0.5em;
+}
+
+.buttonSearch {
+	background-color: #CECEF6;
+	color: white;
+	padding: 0.5em;
+	font-size: 1.1em;
+	border: none;
+	width:10em;
+	height: 2.2em;
+	font-family: 'Eras ITC', 'Eras Light ITC',  sans-serif ;
+	border-radius: 0.5em;
+	cursor: pointer;
+	transition: all 0.5s;
+	display: inline-block;
+	margin-left:9em;
+	margin-top:2.5em;
+}

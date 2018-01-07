@@ -10,11 +10,11 @@
       <div class="text_menu"> <a class="InitialPage" href="#Founders"> Founders </a> </div>
       {if $ADMIN == 'TRUE'}
         <div class="dropdown">
-          <button class="dropbtn">Maintenence</button>
+          <button class="dropbtn" style="border:0px;">Maintenence</button>
           <div class="dropdown-content">
-            <a href="http://paginas.fe.up.pt/~ee12144/trabalhosSiem/trabalhoPHP-1/Maintenence/Maintenence_Insert.php">Insert Info</a>
-            <a href="http://paginas.fe.up.pt/~ee12144/trabalhosSiem/trabalhoPHP-1/Maintenence/Maintenence_remove.php">Remove Info</a>
-            <a href="http://paginas.fe.up.pt/~ee12144/trabalhosSiem/trabalhoPHP-1/Maintenence/Maintenence_update.php">Update Info</a>
+            <a href="{$BASE_URL}pages/Maintenence/Insert.php">Insert Info</a>
+            <a href="{$BASE_URL}pages/Maintenence/Remove.php">Remove Info</a>
+            <a href="{$BASE_URL}pages/Maintenence/Update.php">Update Info</a>
           </div>
         </div>
       {/if}
@@ -34,11 +34,11 @@
       <div class="text_menu"> <a class="Generic" href="{$BASE_URL}pages/InitialPage/initialPage.php#Founders"> Founders </a> </div>
       {if $ADMIN == 'TRUE'}
         <div class="dropdown">
-          <button class="dropbtn">Maintenence</button>
+          <button class="dropbtn" style="border:0px;">Maintenence</button>
           <div class="dropdown-content">
-            <a href="http://paginas.fe.up.pt/~ee12144/trabalhosSiem/trabalhoPHP-1/Maintenence/Maintenence_Insert.php">Insert Info</a>
-            <a href="http://paginas.fe.up.pt/~ee12144/trabalhosSiem/trabalhoPHP-1/Maintenence/Maintenence_remove.php">Remove Info</a>
-            <a href="http://paginas.fe.up.pt/~ee12144/trabalhosSiem/trabalhoPHP-1/Maintenence/Maintenence_update.php">Update Info</a>
+            <a href="{$BASE_URL}pages/Maintenence/Insert.php">Insert Info</a>
+            <a href="{$BASE_URL}pages/Maintenence/Remove.php">Remove Info</a>
+            <a href="{$BASE_URL}pages/Maintenence/Update.php">Update Info</a>
           </div>
         </div>
       {/if}

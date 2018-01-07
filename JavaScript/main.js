@@ -1,6 +1,7 @@
+let BASE_URL = 'https://gnomo.fe.up.pt/~ee12144/trabalhosSiem/trabalhoPHP-2/';
+
 $(document).ready(function() {
   initMessageClosers();
-
   scrollToDiv();
 });
 
@@ -39,4 +40,25 @@ function showUserResult(str){
 		xmlhttp.open("GET", "https://gnomo.fe.up.pt/~ee12144/trabalhosSiem/trabalhoPHP-2/actions/javaScript/check_username.php?q=" + str, true);
 		xmlhttp.send();
 	}
+
 }
+
+/*function ShowHotelupdate(){
+  var option;
+
+  option = document.forms["ChooseHotel"]["Hotel"].value);
+  $.getJSON(BASE_URL + "api/getDataHotels.php", {id: option}, function(data) {
+      $.each(data, function(i, tweet) {
+        $('#tweets .tweet:first').before('<article class="tweet">' +
+            '<header>' +
+              '<span class="id">' + tweet.id + '</span>' +
+              '<span class="realname">' + tweet.realname + '</span>' +
+              '<a href="{$BASE_URL}pages/tweets/list_user.php?username=' + tweet.username + '" class="username">@' + tweet.username + '</a>' +
+              '<span class="time">' + tweet.time + '</span>' +
+            '</header>' +
+            '<p>' + tweet.text + '</p>' +
+          '</article>');
+        $('#new_tweets').fadeOut();
+      });
+    });
+}*/

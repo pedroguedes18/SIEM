@@ -13,6 +13,9 @@
       <p class="texPaboutUs"> For Hotel Managers </p>
       <p style="padding-top: 4em; text-align:center"> <img src="{$BASE_URL}Fotos/iconHotelAzul.png" style="width:2.5em;height:2.5em;"> </p>
       <p class="texPaboutUs" style="font-size:1.2em; color: #848484; padding-left:1em; padding-right:1em;"> Join us and show your tourist chain to the best world travellers. </p>
+      <form method='POST' action='{$BASE_URL}pages/InitialPage/initialPage.php#Founders'>
+				<input type="submit" name="botao5" value="CONTACT US" class="buttonSearch"></input>
+			</form>
     </div>
     <div class="centerImgAboutUs">
     </div>
@@ -20,6 +23,9 @@
       <p class="texPaboutUs"> For Travellers </p>
       <p style="padding-top: 3.2em; text-align:center"> <img src="{$BASE_URL}Fotos/iconTravellersAzul.png" style="width:2.5em;height:3em;"> </p>
       <p class="texPaboutUs" style="font-size:1.2em; color: #848484; padding-left:1em; padding-right:1em;"> Enjoy to explore Portugal, take the experience and do it with your favourite Kombi. </p>
+      <form method='POST' action='{$BASE_URL}pages/SignIn/SignIn.php'>
+				<input type="submit" name="botao5" value="REGISTER" class="buttonSearch"></input>
+			</form>
     </div>
   </div>
 
